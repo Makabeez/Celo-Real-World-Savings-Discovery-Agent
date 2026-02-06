@@ -1,0 +1,15 @@
+{
+    "report": {
+        "agent_address": "0x42095A63f19567f862419b7c6c6FfB47bb63F39f",
+        "network": "Celo Sepolia",
+        "tx_count": 1,
+        "reputation_score": "10/100",
+        "timestamp": 1770416742,
+        "standard": "ERC-8004",
+        "verified_skills": [
+            "Savings Automation",
+            "Transaction Signing"
+        ]
+    },
+    "signature": "9235769785cbae755eb5249165c962c519ef9df86b382bf28c3ddeb7d0329c062d14c9c9d2fc6f93d7891d37f5f44ed59f3c0bb4673764ea5592bea30c744aea1b"
+}
