@@ -1,43 +1,43 @@
 # Celo Real-World Savings & Discovery Agent 🌍🤖
 
-Ce projet est une soumission officielle pour le hackathon **"Build Agents for the Real World"** de Celo. Il présente un agent autonome capable de gérer intelligemment l'épargne tout en possédant une identité vérifiable on-chain.
+This project is an official submission for the Celo **"Build Agents for the Real World"** Hackathon. It features an autonomous agent capable of intelligent savings management with a verifiable on-chain identity.
 
-## 🚀 Présentation
-L'agent est conçu pour apporter une utilité financière concrète au quotidien sur le réseau Celo Sepolia. Il utilise des "Skills" (compétences) pour automatiser des tâches complexes et interagir avec l'écosystème de manière décentralisée.
+## 🚀 Overview
+The agent is designed to provide tangible financial utility on the Celo Sepolia network. It utilizes "Skills" to automate complex tasks and interact with the ecosystem in a decentralized manner.
 
-### Fonctionnalités Clés
-- **Automatisation de l'Épargne (Sweep-to-Save) :** L'agent surveille son solde et transfère automatiquement l'excédent de CELO vers un coffre-fort (Vault) sécurisé dès qu'un seuil est atteint.
-- **Identité ERC-8004 :** Implémentation du standard de réputation décentralisée pour garantir la transparence des actions de l'agent.
-- **Découverte AP2/A2A :** Utilisation de descripteurs standardisés pour permettre à d'autres agents de trouver et d'utiliser ses services.
+### Key Features
+- **Savings Automation (Sweep-to-Save):** The agent monitors its balance and automatically transfers surplus CELO to a secure vault once a defined threshold is met.
+- **ERC-8004 Reputation:** Implementation of the decentralized reputation standard to ensure transparency of the agent's actions.
+- **AP2/A2A Discovery:** Standardized descriptors allowing other agents to discover and interact with its services seamlessly.
 
-## 🆔 Vérification d'Identité
-Pour garantir la sécurité et la résistance aux attaques Sybil, cet agent est lié à une identité humaine vérifiée.
+## 🆔 Identity Verification
+To ensure security and Sybil-resistance, this agent is linked to a verified human identity.
 
-- **Agent Address (Celo) :** `0x42095A63f19567f862419b7c6c6FfB47bb63F39f`
-- **Agent Public Key (Identity) :** `0x2f225F8A538e7fD613e8ba79DCDdC7D1422AEd1C`
-- **Statut :** Connecté et vérifié via **SelfProtocol / SelfClaw**.
+- **Agent Address (Celo):** `0x42095A63f19567f862419b7c6c6FfB47bb63F39f`
+- **Agent Public Key (Identity):** `0x2f225F8A538e7fD613e8ba79DCDdC7D1422AEd1C`
+- **Status:** Connected and verified via **SelfProtocol / SelfClaw**.
 
-## 📊 Preuve d'Exécution (Utilité Réelle)
-L'agent a déjà démontré sa capacité à exécuter des transactions financières autonomes sur Celo Sepolia :
-- **Transaction Hash :** `0xb2aa1fbb8ee7fd27c1fac536e5794251da851a225018e973a17c84d13dbc8eb2`
+## 📊 Proof of Execution (Real-World Utility)
+The agent has already demonstrated its capability to execute autonomous financial transactions on Celo Sepolia:
+- **Transaction Hash:** `0xb2aa1fbb8ee7fd27c1fac536e5794251da851a225018e973a17c84d13dbc8eb2`
 
-## 🛠 Stack Technique
-- **Réseau :** Celo Sepolia (L2)
-- **Langage :** Python 3.10+
-- **Bibliothèques :** Web3.py, Eth-account, Dotenv
-- **Standards :** ERC-8004 (Reputation), AP2 (Discovery)
+## 🛠 Technical Stack
+- **Network:** Celo Sepolia (L2)
+- **Language:** Python 3.10+
+- **Libraries:** Web3.py, Eth-account, Dotenv
+- **Standards:** ERC-8004 (Reputation), AP2 (Discovery)
 
-## 📁 Structure du Projet
-- `agent.py` : Cœur de l'agent et boucle de décision.
-- `savings_skill.py` : Logique d'automatisation de l'épargne.
-- `reputation_score.py` : Calcul et signature du score ERC-8004.
-- `agent_descriptor.json` : Fichier de configuration pour la découverte A2A.
+## 📁 Project Structure
+- `agent.py`: Core logic and decision loop.
+- `savings_skill.py`: Savings automation logic.
+- `reputation_score.py`: ERC-8004 score calculation and signing.
+- `agent_descriptor.json`: Configuration file for A2A discovery.
 
 ## ⚙️ Installation
-1. Clonez le répertoire : `git clone https://github.com/Makabeez/Celo-Real-World-Savings-Discovery-Agent`
-2. Installez les dépendances : `pip install -r requirements.txt`
-3. Configurez votre `.env` avec votre clé privée (Sepolia).
-4. Lancez l'agent : `python agent.py`
+1. Clone the repository: `git clone https://github.com/Makabeez/Celo-Real-World-Savings-Discovery-Agent`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Configure your `.env` with your private key (Sepolia).
+4. Run the agent: `python agent.py`
 
 ---
-Projet soumis par **Makabeez** via [Karma](https://www.karmahq.xyz/project/celo-real-world-savings--discovery-agent/).
+Project submitted by **Makabeez** via [Karma](https://www.karmahq.xyz/project/celo-real-world-savings--discovery-agent/).
