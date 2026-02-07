@@ -21,6 +21,10 @@ To ensure security and Sybil-resistance, this agent is linked to a verified huma
 The agent has already demonstrated its capability to execute autonomous financial transactions on Celo Sepolia:
 - **Transaction Hash:** `0xb2aa1fbb8ee7fd27c1fac536e5794251da851a225018e973a17c84d13dbc8eb2`
 
+- ## 🎥 Demo Video
+Watch the agent in action (Sweep-to-Save & ERC-8004 Verification):
+👉 [Watch on YouTube](https://youtu.be/IEJFaZ7wya4)
+
 ## 🛠 Technical Stack
 - **Network:** Celo Sepolia (L2)
 - **Language:** Python 3.10+
