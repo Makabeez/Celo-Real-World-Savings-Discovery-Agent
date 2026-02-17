@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/vps/celo-agent-hackathon/agent.py", line 3, in <module>
+    from savings_skill import check_and_save  # Import de ta logique existante
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'check_and_save' from 'savings_skill' (/home/vps/celo-agent-hackathon/savings_skill.py)

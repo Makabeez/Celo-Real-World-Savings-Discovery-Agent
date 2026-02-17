@@ -1,0 +1,12 @@
+{
+    "data": {
+        "address": "0x42095A63f19567f862419b7c6c6FfB47bb63F39f",
+        "skills": [
+            "savings",
+            "remittances"
+        ],
+        "endpoint": "https://github.com/your-repo-link",
+        "version": "1.0.0"
+    },
+    "signature": "2b9aab945ab5c861975c9c498524c2a0269a5ff322ac9d058044fb7b6fb01dda01a22b40c97eb00f7f72b25225dac856c6a541042ce8627158a8f7945c8583471c"
+}
