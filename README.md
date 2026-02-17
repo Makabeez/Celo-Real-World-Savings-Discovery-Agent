@@ -26,7 +26,7 @@ The agent implements a robust 3-step sequence to handle Native CELO swaps reliab
 
 ## 🎥 Demo Video
 Watch the agent in action (Sweep-to-Save logic & ERC-8004 Verification):
-👉 [Watch the Demo on YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+👉 [Watch the Demo on YouTube](https://youtu.be/DFjHpG77Ljk)
 
 ## 📁 Project Structure
 - `agent.py`: Core autonomous logic and main decision loop.
