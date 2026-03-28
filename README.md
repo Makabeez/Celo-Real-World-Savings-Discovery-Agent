@@ -1,37 +1,21 @@
-# Celo "Sweep-to-Save" Autonomous Agent 🌍🤖
+# 🛂 Celo Agent V2: Real-World Savings Discovery (Agent #86)
 
-**Official submission for the Celo "Build Agents for the Real World" Hackathon.**
+An autonomous, self-sovereign DeFi agent built on the Celo L2. This system automatically farms its own on-chain reputation to unlock a **Celo Citizenship Visa**, successfully bypasses Sybil-defenses using Self Protocol's ERC-8004 identity layer, and dynamically routes idle USDC into Aave V3 for automated yield generation.
 
-This autonomous agent manages financial liquidity while maintaining a verifiable on-chain identity via the SelfProtocol ecosystem. It is now fully operational on the **Celo Mainnet**.
+## 🚀 The Problem & Solution
+Most Web3 AI agents are purely speculative or lack the on-chain reputation to be trusted with real DeFi incentives. Networks face a Sybil problem: how do you grant ecosystem yield boosts to bots without malicious actors draining the protocol?
 
-## 🚀 Mainnet Proof of Execution
-The agent has successfully transitioned from development to live production, demonstrating real-world utility by autonomously managing CELO liquidity.
+**Agent #86 solves this through a dual-engine architecture:**
+1. **Reputation Farming:** Executes 10,000+ gas-optimized micro-transactions to build a verifiable on-chain resume.
+2. **Sybil-Resistant Identity (ERC-8004):** Cryptographically links the autonomous worker wallet to a passport-verified human "Guardian" via the Self Protocol API using Ed25519 signatures.
+3. **Automated Yield Routing:** Once the Celo network upgrades the agent's status to the "Citizenship" tier, the agent sweeps surplus USDC into the Aave V3 lending pool to generate a ~5.2% APY.
 
-- **Mainnet Demo Video**: [![Watch the Mainnet Execution](https://img.youtube.com/vi/DFjHpG77Ljk/0.jpg)](https://youtu.be/DFjHpG77Ljk)
-- **Verified Transaction**: [`0xb31cace093ef8ead7f122b803d781c59ac65819ac82d7acd19efbf62977a75f1`](https://celoscan.io/tx/0xb31cace093ef8ead7f122b803d781c59ac65819ac82d7acd19efbf62977a75f1)
+## 🏗️ System Architecture
 
-## 🆔 Identity & Verification
-To ensure security and Sybil-resistance, this agent is linked to a verified human identity through the SelfProtocol stack.
-- **Verification Method**: Connected via **SelfProtocol / SelfClaw**.
-- **Agent Address (Celo)**: `0x42095A63f19567f862419b7c6c6FfB47bb63F39f`
-- **Identity Standard**: Verified compliant with **ERC-8004** (Reputation) and **AP2/A2A** (Discovery).
+* **The Brain (Backend):** Python API + Web3.py monitoring Binance Oracles for $CELO volatility and managing the agent's EVM wallet.
+* **The Brawn (PM2 Daemons):** * `visa_worker.py`: Grinds reputation via self-transfers to hit the 10,000 TX Citizenship milestone.
+  * `yield_worker.py`: Actively manages nonces and pending blocks to approve and supply capital to Aave V3.
+* **The Face (Frontend):** A custom Next.js 16 + Tailwind React Dashboard that visualizes the agent's internal reasoning, live wallet balances, and Visa progression tier in real-time.
 
-## 🛠 Technical Architecture
-The agent implements a robust 3-step sequence to handle Native CELO swaps reliably on decentralized exchanges:
-
-1. **Wrap**: Converts Native CELO to ERC-20 WCELO.
-2. **Approve**: Grants the DEX Router (Ubeswap/Uniswap) permission to spend WCELO.
-3. **Swap**: Executes the trade to USDC while maintaining a **1.0 CELO gas buffer** to ensure continuous operation.
-
-## 📁 Project Structure
-- `agent.py`: Core autonomous logic and main decision loop.
-- `savings_skill.py`: Specialized logic for the Sweep-to-Save automation.
-- `reputation_score.py`: ERC-8004 calculation and attestation signing.
-- `agent_descriptor.json`: Configuration for AP2 discovery services.
-- `requirements.txt`: Project dependencies for environment setup.
-
-## ⚙️ Installation & Usage
-1. **Clone the Repo**:
-   ```bash
-   git clone [https://github.com/Makabeez/Celo-Real-World-Savings-Discovery-Agent](https://github.com/Makabeez/Celo-Real-World-Savings-Discovery-Agent)
-   cd celo-agent-hackathon
+## 🏆 Celo Hackathon V2: Build Agents for the Real World
+Built for the Celo Agent Visa track. Agent #86 is fully equipped to safely manage yields for Celo's 14M+ MiniPay users by combining self-custodial Python workers with human-backed Guardian identities.
