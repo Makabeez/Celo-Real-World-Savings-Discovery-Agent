@@ -1,3 +1,9 @@
+![withdraw_token](https://github.com/user-attachments/assets/4dbc1db5-c1b6-4051-8a95-e9e2c7833183)
+![Miniapp](https://github.com/user-attachments/assets/e182f3fc-eacb-4676-b4af-aed126d19587)
+![deposit_token](https://github.com/user-attachments/assets/dad5e3df-1bf0-42ec-bca5-ac880b46f7e6)
+![celoscan_tx](https://github.com/user-attachments/assets/864ac8ca-2bb7-4b24-9514-13a765ebb3a5)
+![approve_withdraw](https://github.com/user-attachments/assets/13825a57-6ecd-4888-a249-21f35ec0008b)
+![approve_token](https://github.com/user-attachments/assets/d92f6dee-40e0-49ea-9b66-2bf13ca9801a)
 # MiniYield 🏦
 
 A one-click, self-custodial yield router for MiniPay users, featuring an autonomous background agent that automatically sweeps idle USDC into Aave V3 for maximum yield. 
